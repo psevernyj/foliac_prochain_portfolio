@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-.body{
-    margin: 0;
+body{
     background-color:#f9f9f9;
-    width: 1920px; height: 2968px;
+    /*width: 1920px; height: 2968px;*/
+    margin: 0;
 }
 .main{
     display: flex;
@@ -74,15 +74,173 @@
     font-family: "Century Gothic";
     color: #48bf72;
 }
+.navigation{
+    margin: 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /*width: 1920px; */
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /*position: absolute;*/
+    /*top: 91px; left: 899px ;*/
+}
+.navigation ul li{
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+    }
+.menupoint{
 
-
-
-.content{
-
-    background-image: url("../image/background/men-computer@1X.png");
-    width: 1949px; height:1260px;
+    font-family: "Century Gothic" ; font-size: 16pt;
+    text-align: center; color:#3c4955 ;
+    text-decoration: none;
+    border: 2px solid #eaeaea;
+    width: 138px; height: 39px;
+    border-radius: 4px;
+    background-color: #eaeaea
 
 }
+.menupoint_first{
+
+    font-family: "Century Gothic" ; font-size: 16pt;
+    text-align: center; color:#f3fbf6 ;
+    text-decoration: none;
+    border: 2px solid #48bf72;
+    width: 138px; height: 39px;
+    border-radius: 4px;
+    background-color: #48bf72;
+
+}
+.nav_pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.nav_pic img {
+    border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+    border-radius: 10px;
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 30px;
+    /*margin-left: 100px;*/
+    margin-top: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../image/background/men-computer@1X.png");
+    width: 1948px; height: 557px;
+    position: relative;
+}
+.autor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 91px; left:1000px;
+}
+.autorname{
+    font-family:Cambria;
+    font-size:30pt;
+}
+.autorprof{
+    font-family:Cambria;
+    font-size:25pt;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 191px; left: 1000px; right: 525px;
+    font-family: Cambria;
+    font-size: 16pt;
+}
+
+.button-link1{
+    display: flex;
+    position: absolute;
+    bottom: 91px; left: 1000px;
+
+
+}
+.bl1{
+    text-decoration: none;
+    font-family: "Century Gothic";
+    color:#3c4955;
+    border: 2px solid #3c4955;
+    width: 138px; height: 39px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /*position: relative;*/
+}
+.contacter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic";
+    font-size: 26pt;
+    color:#48bf72;
+    /*position: absolute;*/
+    /*top: 50px; right: 848px;*/
+    margin: 50px;
+
+}
+.nameemail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 700px;
+    margin-bottom: 20px;
+    /*position: absolute;*/
+}
+
+.one{
+    display: flex;
+    border: 3px solid #3c4955;
+    border-radius: 8px;
+    width: 335px;
+}
+.two{
+    display: flex;
+    width: 285px;
+}
+
+.send_message {
+    display: flex;
+    border: 3px solid #3c4955;
+    border-radius: 8px;
+    width: 700px;
+
+}
+.send_message_text{
+    width: 650px;
+}
+
 .footerby{
     display: flex;
     font-family: "Footlight MT Light";
@@ -90,6 +248,24 @@
     color: #f9f9f9;
 }
 
+.contact_bl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 50px;
+    margin: 25px;
+    border: 1px solid #48bf72;
+    border-radius: 3px;
+    background-color: #48bf72;
+}
+
+.contact_bl2 a {
+    text-decoration: none;
+    display: flex;
+    font-family: "Century Gothic";
+    color: #f9f9f9;
+}
 .footer{
     display: flex;
     justify-content: space-around;
